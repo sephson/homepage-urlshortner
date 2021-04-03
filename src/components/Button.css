@@ -1,0 +1,62 @@
+:root {
+  --cyanhover: hsl(180, 76%, 81%);
+  --cyan: hsl(180, 66%, 49%);
+  --darkBlue: hsl(257, 27%, 26%);
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  padding: 0.7rem 1rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  font: 0.8rem;
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+}
+
+.btn--cyan {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--cyan);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.btn--getstarted {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--cyan);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 960px) {
+  .btn--cyan {
+    display: none;
+  }
+}
+
+.btn--darkBlue {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--darkBlue);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.btn--getstarted {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--cyan);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.btn-small-round {
+  /* margin-left: 2rem; */
+}
+
+.btn--cyan:hover {
+  background-color: var(--cyanhover);
+}
